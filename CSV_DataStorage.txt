@@ -1,0 +1,136 @@
+Date,Rain(in),Depth(cm),South,North,West,East,Area,Temperature(*F) Max,Temperature(*F) Min,Other Observations
+2018-12-16,NA,NA,NA,NA,NA,NA,NA,44,31,Original Measurements
+2018-12-17,0,3.2,47,17,55,50,5278,41,34,NA
+2018-12-18,0,3,42,80,54,56,10160,37,22,NA
+2018-12-19,0,5,46,80,25,50,7422,41,19,NA
+2018-12-20,0,4,47,20,25,51,50,21,NA
+2018-12-21,NA,NA,NA,NA,NA,NA,67,40,NA
+2018-12-22,0,4.8,49,123,19,65,59,35,NA
+2018-12-23,NA,NA,NA,NA,NA,NA,41,26,Away for Christmas
+2018-12-24,NA,NA,NA,NA,NA,NA,37,26,Away for Christmas
+2018-12-25,NA,NA,NA,NA,NA,NA,38,21,Away for Christmas
+2018-12-26,NA,NA,NA,NA,NA,NA,40,17,Away for Christmas
+2018-12-27,NA,NA,NA,NA,NA,NA,37,26,Away for Christmas
+2018-12-28,NA,NA,NA,NA,NA,NA,42,31,Away for Christmas
+2018-12-29,0,5.3,50,117,60,65,50,29,NA
+2018-12-30,0,4.9,46,77,30,66,36,23,NA
+2018-12-31,0,4.7,45,73,22,66,44,25,NA
+2019-1-1,0,5.6,46,139,66,66,57,30,NA
+2019-1-2,2019-1-1,0,5.8,49,133,59,66,36,25,NA
+2019-1-3,0.02,5.1,49,132,66,67,46,30,NA
+2019-1-4,NA,NA,NA,NA,NA,NA,47,32,NA
+2019-1-5,0.05,6.1,58,172,74,67,41,31,Small Sleet
+2019-1-6,NA,NA,NA,NA,NA,NA,46,23,NA
+2019-1-7,0.075,7.2,53,152,77,67,30,17,Snow\, Pond frozen
+2019-1-8,0,4.7,52,91,63,66,35,26,Pond frozen
+2019-1-9,0.3,5.3,68,142,67,66,44,33,Rain
+2019-1-10,0,4.8,66,27,69,66,35,23,NA
+2019-1-11,0,5.5,46,22,91,66,28,14,Pond has algae\, Frozen
+2019-1-12,0,6.4,62,27,87,66,27,12,Pond completley frozen
+2019-1-13,0,8.1,66,27,85,68,29,13,Completley frozen
+2019-1-14,0,6.4,69,20,88,66,33,14,Completley frozen
+2019-1-15,0,7,59,27,88,66,38,10,Completley frozen
+2019-1-16,0,4.7,63,27,89,67,38,14,Completley frozen
+2019-1-17,NA,NA,NA,NA,NA,NA,31,14,NA
+2019-1-18,0,4.6,62,27,91,66,41,17,Completley frozen
+2019-1-19,0,5.7,64,28,90,68,32,20,Completley frozen
+2019-1-20,6.5 (snow),NA,NA,NA,NA,NA,31,6,Pond frozen with snow on top of ice\, unable to measure
+2019-1-21,NA,NA,NA,NA,NA,NA,6,1,Snow on top of ice\, unable to measure
+2019-1-22,NA,NA,NA,NA,NA,NA,27,4,Snow on top of ice\, unable to measure
+2019-1-23,NA,NA,NA,NA,NA,NA,50,10,Snow on top of ice\, unable to measure
+2019-1-24,NA,NA,NA,NA,NA,NA,58,35,Snow on top of ice\, unable to measure
+2019-1-25,0.75,11.8,104,32,147,88,40,25,Slush\, ice\, and snow in/on top of water\, RAIN
+2019-1-26,0.3,9.2,133,27,179,76,34,16,Frozen\, Slush & water
+2019-1-27,0,8.8,117,27,132,82,46,15,Frozen\, Algae
+2019-1-28,0,8.8,124,27,115,83,39,19,Frozen\, Slush\, Algae
+2019-1-29,0,8.7,132,27,119,81,35,18,Frozen\, Algae
+2019-1-30,0.01 (snow),7,131,25,129,82,30,5,More frozen\, Algae
+2019-1-31,0.5 (snow),NA,NA,NA,NA,NA,14,0,Too much snow\, unable to measure
+2019-2-1,NA,NA,NA,NA,NA,NA,21,4,Layers upon layers of snow and ice\, Unable to measure
+2019-2-2,NA,NA,NA,NA,NA,NA,34,-1,Unable to measure\, Was at performance
+2019-2-3,0,NA,NA,25,NA,69,39,25,Unable to measure areas of pond due to snow and ice
+2019-2-4,0,NA,NA,26,NA,89,63,32,60*F ish\, Snow and ice melting\, Still unable to measure areas of pond due to snow and ice
+2019-2-5,0,10,128,29,139,81,64,37,Ice thinning\, Warm\, Much more algae
+2019-2-6,0.65,10,128,28,153,80,41,30,Ice melting\, Rained\, Lots of algae
+2019-2-7,0.1,11,133,25,155,84,41,33,Rain\, Ice melting\, Algae
+2019-2-8,55,29
+2019-2-9,0,10,134,24,148,83,34,22,Ice melting\, ALgae\, Humid\, Very windy
+2019-2-10,0,10.1,135,23,140,69,36,20,Ice melting\
+2019-2-11,0,10.8,91,23,132,69,37,22,Ice melting\, Algae
+2019-2-12,0.85 (snow),11.2,NA,26,NA,68,35,14,Snow\, Some measuremnets were unreadable due to snow and ice, 
+2019-2-13,1.3 (rain & snow),11,NA,26,148,66,41,31,Measurments maybe shorter than reality\, Rain and snow\, Ice and snow made some measurements difficult
+2019-2-14,0.05,10.1,NA,24,149,70,38,25,Snow and ice may've made measures innacurate\, Algae
+2019-2-15,50,25
+2019-2-16,44,28
+2019-2-17,37,19
+2019-2-18,31,19
+2019-2-19,31,12
+2019-2-20,29,8
+2019-2-21,46,24
+2019-2-22,43,26
+2019-2-23,40,19
+2019-2-24,44,32
+2019-2-25,NA,NA,NA,NA,NA,NA,40,28,Too windy trees and branches falling
+2019-2-26,0.5,10.4,NA,23.6,153.8,68.2,30,17,Frozen rain in gauge\, Snow\, ice\, and wind, Algae, Some measurements were difficult to read due to ice and snow
+2019-2-27,0,10.5,25.8,NA,150.3,68.4,24,9,Cold\, Pond almost completley frozen\, Algae\, Snow still in parts of pond and surronding area\, Unable to measure some parts due to snow
+2019-2-28,30,12
+2019-3-1,0.01,11.5,NA,26,142.5,67.9,38,11,4:00\, Light dusting of snow\, Unable to measure areas of pond due to ice and snow\, Algae
+2019-3-2,0.3 (snow),11.5,NA,25.1,NA,68.4,33,27,Unable to measure areas of pond due to ice and snow\, Pond frozen over\, Algae
+2019-3-3,0.1,11.3,NA,125.1,NA,66.7,42,21,Snow and ice make measurements difficult\, Pond frozen\, Hot\, Algae
+2019-3-4,NA,NA,NA,NA,NA,NA,39,22,Was not able do measure due to play practice.
+2019-3-5,NA,NA,NA,NA,NA,NA,29,11,Was not able do measure due to play practice.
+2019-3-6,NA,NA,NA,NA,NA,NA,25,12,Was not able do measure due to play practice.
+2019-3-7,NA,NA,NA,NA,NA,NA,28,6,Was not able do measure due to play practice.
+2019-3-8,NA,NA,NA,NA,NA,NA,37,2,Was not able do measure due to play practice.
+2019-3-9,0,10.3,NA,24.2,NA,70.4,46,10,Lots more Algae\, Snow and ice make measurements difficultm
+2019-3-10,0.7 (slush),4.5,NA,23.4,NA,66.7,38,21,5:30\, Slush\, snow\, and ice make measurements difficult\, Algae
+2019-3-11,NA,NA,NA,NA,NA,NA,48,36,Was not able do measure due to play performance.
+2019-3-12,NA,NA,NA,NA,NA,NA,42,25,Was not able do measure due to play performance.
+2019-3-13,NA,NA,NA,NA,NA,NA,44,19,Was not able do measure due to play performance.
+2019-3-14,0,10.8,NA,224.0,81.3,69.7,50,36,Warm\, Snow and ice melting\, Some measurements still difficult\, Lots of Algae
+2019-3-15,0.05,12.7,157.2,26.4,97.4,69.1,64,41,Snow melting\, Warm\, Measurements possibly a bit off\, Algae
+2019-3-16,0.5,13.9,22.7,27.4,167.3,70.4,54,33,Snow/ice melted\, Algae\, Cold\, Measurements possibly a bit off
+2019-3-17,0,12.6,221.4,25.4,192.7,69.41,28,Algae\, Snow/ice melting\, Cold\, Pond has expanded southward
+2019-3-18,0,12.3,221.7,23.9,182.9,68.2,43,23,4:30\, Algae\, Snow and ice melting\, Chilly\, Thorn stabbed boot and foot
+2019-3-19,0,13.7,233.7,23.4,182.5,69.6,45,20,5:00\, Algae\, Snow and ice almost melted\, Chilly
+2019-3-20,0,12.2,237.2,24.4,190.6,68.3,54,20,Algae\, Warm\, Ice/snow melting\, 4:30\, Pond larger
+2019-3-21,0,12.8,298.4,23.7,189.1,69.9,52,28,Algae\, Pond larger\, 4:15\, Warm
+2019-3-22,0,13.2,285.5,24.9,188.6,70.9,42,38,Algae\, Warm\, Ice/snow melted\, 4:30\, Pond larger
+2019-3-23,NA,NA,NA,NA,NA,NA,48,33,Forgot to measure
+2019-3-24,0,12.7,286.9,25.4,182.2,71.4,59,26,Lots more algae\, Warm\, Insects\, mainly mosquitos\, around pond
+2019-3-25,0,11.4,153.5,23.2,161.6,70.6,50,25,Lots more algae\, Hot\, Mosquitos\, Lighting bugs and cotton bugs(?)
+2019-3-26,0,11.5,204.5,22.5,133.4,69.8,45,22,Lots more algae\, Hot\, Grass\, Mosquitos/gnats
+2019-3-27,0,11.2,185.9,23.2,130.1,66.9,46,20,Lots -o- lots algae\, Mosquitos\, Warm\, Frog eggs(?)\, Lots more moss
+2019-3-28,0,10.9,152.2,24.5,127.9,67.8,56,28,Algae\, Mosquitos\, Warm
+2019-3-29,0.025,11.9,190.9,24.9,135,69.9,58,42,Light shower\, Warm\, Algae
+2019-3-30,0,11.5,152.9,24.4,122.6,67.3,69,43,Algae\, Really hot\, Skunk cabbage\, Lots of bugs
+2019-3-31,0.1,11.9,305.1,27.5,141.1,66.6,69,38,Algae\, Rained\, Warm\, Bugs
+2019-4-1,0.01,11.4,152.2,27.3,130.1,65.5,46,26,Algae\, Hot\, High wind chill\, Mosquitos\, Bugs\, Windy\, Clear sky
+2019-4-2,0,11,124.3,24,121.9,68.4,Lots of mosquitos and gnats\, Warm\, Windy\, Algae
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
