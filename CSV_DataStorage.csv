@@ -16,7 +16,7 @@ Date,Rain,Depth,South,North,West,East,TemperatureMax,TemperatureMin,OtherObserva
 2018-12-30,0,4.9,46,77,30,66,36,23,NA
 2018-12-31,0,4.7,45,73,22,66,44,25,NA
 2019-1-1,0,5.6,46,139,66,66,57,30,NA
-2019-1-2,2019-1-1,0,5.8,49,133,59,66,36,25,NA
+2019-1-2,0,5.8,49,133,59,66,36,25,NA
 2019-1-3,0.02,5.1,49,132,66,67,46,30,NA
 2019-1-4,NA,NA,NA,NA,NA,NA,47,32,NA
 2019-1-5,0.05,6.1,58,172,74,67,41,31,Small Sleet
@@ -44,8 +44,8 @@ Date,Rain,Depth,South,North,West,East,TemperatureMax,TemperatureMin,OtherObserva
 2019-1-27,0,8.8,117,27,132,82,46,15,"Frozen, Algae"
 2019-1-28,0,8.8,124,27,115,83,39,19,"Frozen, Slush, Algae"
 2019-1-29,0,8.7,132,27,119,81,35,18,"Frozen, Algae"
-2019-1-30,0.01 (snow),7,131,25,129,82,30,5,"More frozen, Algae"
-2019-1-31,0.5 (snow),NA,NA,NA,NA,NA,14,0,"Too much snow, unable to measure"
+2019-1-30,0.01,7,131,25,129,82,30,5,"More frozen, Algae, Rain measurement is inches of snow"
+2019-1-31,0.5,NA,NA,NA,NA,NA,14,0,"Too much snow, unable to measure, Rain measurement is inches of snow"
 2019-2-1,NA,NA,NA,NA,NA,NA,21,4,"Layers upon layers of snow and ice, Unable to measure"
 2019-2-2,NA,NA,NA,NA,NA,NA,34,-1,"Unable to measure, Was at performance"
 2019-2-3,0,NA,NA,25,NA,69,39,25,Unable to measure areas of pond due to snow and ice
@@ -57,8 +57,8 @@ Date,Rain,Depth,South,North,West,East,TemperatureMax,TemperatureMin,OtherObserva
 2019-2-9,0,10,134,24,148,83,34,22,"Ice melting, Algae, Humid, Very windy"
 2019-2-10,0,10.1,135,23,140,69,36,20,"Ice melting, Algae"
 2019-2-11,0,10.8,91,23,132,69,37,22,"Ice melting, Algae"
-2019-2-12,0.85 (snow),11.2,NA,26,NA,68,35,14,"Snow, Some measurements were unreadable due to snow and ice"
-2019-2-13,1.3 (rain & snow),11,NA,26,148,66,41,31,"Measurements maybe shorter than reality, Rain and snow, Ice and snow made some measurements difficult"
+2019-2-12,0.85,11.2,NA,26,NA,68,35,14,"Snow, Some measurements were unreadable due to snow and ice, Rain measurement is inches of snow"
+2019-2-13,1.3,11,NA,26,148,66,41,31,"Measurements maybe shorter than reality, Rain and snow, Ice and snow made some measurements difficult, Rain measurement is inches of snow & rain"
 2019-2-14,0.05,10.1,NA,24,149,70,38,25,"Snow and ice may have made measures inaccurate, Algae"
 2019-2-15,0.025,10.9,NA,24,NA,83,50,25,"Warm, Ice melting, Algae, A tiny bit of rain, Some measurements were unreadable"
 2019-2-16,0,7.5,80.0,42.3,67.0,38.2,44,28,"(Away on vacation, Dad did measurements), Gentle flow, Ice and snow mostly melted"
@@ -75,7 +75,7 @@ Date,Rain,Depth,South,North,West,East,TemperatureMax,TemperatureMin,OtherObserva
 2019-2-27,0,10.5,25.8,NA,150.3,68.4,24,9,"Cold, Pond almost completely frozen, Algae, Snow still in parts of pond and surrounding area, Unable to measure some parts due to snow"
 2019-2-28,NA,NA,NA,NA,NA,NA,30,12,"Forgot to measure"
 2019-3-1,0.01,11.5,NA,26,142.5,67.9,38,11,"4:00, Light dusting of snow, Unable to measure areas of pond due to ice and snow, Algae"
-2019-3-2,0.3 (snow),11.5,NA,25.1,NA,68.4,33,27,"Unable to measure areas of pond due to ice and snow, Pond frozen over, Algae"
+2019-3-2,0.3,11.5,NA,25.1,NA,68.4,33,27,"Unable to measure areas of pond due to ice and snow, Pond frozen over, Algae, Rain measurement is inches of snow"
 2019-3-3,0.1,11.3,NA,125.1,NA,66.7,42,21,"Snow and ice make measurements difficult, Pond frozen, Hot, Algae"
 2019-3-4,NA,NA,NA,NA,NA,NA,39,22,Was not able do measure due to play practice.
 2019-3-5,NA,NA,NA,NA,NA,NA,29,11,Was not able do measure due to play practice.
@@ -83,7 +83,7 @@ Date,Rain,Depth,South,North,West,East,TemperatureMax,TemperatureMin,OtherObserva
 2019-3-7,NA,NA,NA,NA,NA,NA,28,6,Was not able do measure due to play practice.
 2019-3-8,NA,NA,NA,NA,NA,NA,37,2,Was not able do measure due to play practice.
 2019-3-9,0,10.3,NA,24.2,NA,70.4,46,10,"Lots more Algae, Snow and ice make measurements difficult"
-2019-3-10,0.7 (slush),4.5,NA,23.4,NA,66.7,38,21,"5:30, Slush, snow, and ice make measurements difficult, Algae"
+2019-3-10,0.7,4.5,NA,23.4,NA,66.7,38,21,"5:30, Slush, snow, and ice make measurements difficult, Algae, Rain measurement is inches of slush"
 2019-3-11,NA,NA,NA,NA,NA,NA,48,36,Was not able do measure due to play performance.
 2019-3-12,NA,NA,NA,NA,NA,NA,42,25,Was not able do measure due to play performance.
 2019-3-13,NA,NA,NA,NA,NA,NA,44,19,Was not able do measure due to play performance.
