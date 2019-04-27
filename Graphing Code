@@ -1,0 +1,7 @@
+options(scipen=999)
+library(ggplot2)
+data("Pond_Data", package = "ggplot2")
+
+library(ggplot2)
+SP <- ggplot(Pond_Data, aes(x=TemperatureMax , y=Area)) + geom_point(col="green", size=1.5) +geom_smooth(method="lm", col="darkred")
+SPl <- SP + labs(title="Correlation Between Temperature and Area", subtitle="Everyday Data from Vernal Pond", y="Surface Area of Pond", x=" Temperature Maximum", caption="NA")
