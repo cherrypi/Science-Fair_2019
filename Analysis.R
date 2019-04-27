@@ -15,4 +15,9 @@ Pond_Data$Volume <- (((Pond_Data$South + Pond_Data$North + 1500) / 2) * ((Pond_D
 options(scipen=999)
 
 SPta <- ggplot(Pond_Data, aes(x=TemperatureMax , y=Area)) + geom_point(col="darkgreen", size=1.5) + geom_smooth(method="lm", col="red")
-SPl <- SP + labs(title="Correlation Between Temperature and Area", subtitle="Everyday Data from Vernal Pond", y="Surface Area of Pond", x=" Temperature Maximum", caption="NA")
+SPtaL <- SPta + labs(title="Correlation Between Temperature and Area", subtitle="Everyday Data from Vernal Pond", y="Surface Area of Pond (cm^2)", x=" Temperature Maximum (*F)", caption="NA")
+SPtaZ <- SPtaL + coord_cartesian(xlim=c(25,77.5), ylim=c(1300000,2100000))
+
+SPtv <- ggplot(Pond_Data, aes(x=TemperatureMax , y=Volume)) + geom_point(col="darkgreen", size=1.5) + geom_smooth(method="lm", col="red")
+SPtvL <- SPtv + labs(title="Correlation Between Temperature and Volume", subtitle="Everyday Data from Vernal Pond", y="Volume of Pond (cm^3)", x=" Temperature Maximum", caption="NA")
+SPtvZ <- SPtvL + coord_cartesian(xlim=c(25,77.5), ylim=c(1300000,20000000))  
