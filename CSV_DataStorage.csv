@@ -34,7 +34,7 @@ Date,Rain,Depth,South,North,West,East,TemperatureMax,TemperatureMin,OtherObserva
 2019-1-17,NA,NA,NA,NA,NA,NA,31,14,NA
 2019-1-18,0,4.6,62,27,91,66,41,17,Completely frozen
 2019-1-19,0,5.7,64,28,90,68,32,20,Completely frozen
-2019-1-20,6.5,NA,NA,NA,NA,NA,31,6,"Pond frozen with snow on top of ice, unable to measure, Rain measurement is inches of snow"
+2019-1-20,NA,NA,NA,NA,NA,NA,31,6,"Pond frozen with snow on top of ice, unable to measure, Rain measurement is inches of snow"
 2019-1-21,NA,NA,NA,NA,NA,NA,6,1,"Snow on top of ice, unable to measure"
 2019-1-22,NA,NA,NA,NA,NA,NA,27,4,"Snow on top of ice, unable to measure"
 2019-1-23,NA,NA,NA,NA,NA,NA,50,10,"Snow on top of ice, unable to measure"
