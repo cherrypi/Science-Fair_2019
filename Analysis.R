@@ -2,7 +2,7 @@ library(ggplot2)
 
 Pond_Data <- read.csv("CSV_DataStorage.csv", stringsAsFactors = FALSE)
 Pond_Data$Date <- as.Date( Pond_Data$Date )
-## These two equations are for area and volume of each measurement for the pond.
+## Thesue two equations are for area and volume of each measurement for the pond.
 Pond_Data$Area <- (((Pond_Data$South + Pond_Data$North + 1500) / 2) * ((Pond_Data$West + Pond_Data$East + 1100) / 2) * pi) / 10000
 Pond_Data$Volume <- ((((Pond_Data$South + Pond_Data$North + 1500) / 2) * ((Pond_Data$West + Pond_Data$East + 1100) / 2) * (Pond_Data$Depth) * (4/3) * pi) / 2) / 1000000
 
@@ -13,7 +13,16 @@ Pond_Data$Volume <- ((((Pond_Data$South + Pond_Data$North + 1500) / 2) * ((Pond_
 
 ## Code used to make graphs, from: http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html
 
+## Disables sientific notation.
 options(scipen=999)
+
+## Code used to make Date over X graphs.
+
+## SPvD <- ggplot(Pond_Data, aes(x=Volume, y=Date)) + geom_point(col="green", size=1.5) + geom_smooth(method="lm", col="darkgreen")
+## SPvDL <- SPvD + labs(title="Volume over Time", subtitle="Everyday Data from Vernal Pond", y="Date", x="Volume of Pond (m^3)", caption="NA")
+## SPvDZ <- SPvDL + coord_cartesian(xlim=c(0,20), )
+
+
 
 SPta <- ggplot(Pond_Data, aes(x=TemperatureMax, y=Area)) + geom_point(col="darkgreen", size=1.5) + geom_smooth(method="lm", col="red")
 SPtaL <- SPta + labs(title="Correlation Between Temperature and Area", subtitle="Everyday Data from Vernal Pond", y="Surface Area of Pond (m^2)", x="Temperature Maximum (*F)", caption="NA")
@@ -32,7 +41,7 @@ SPrvL <- SPrv + labs(title="Correlation Between Precipitation and Volume", subti
 SPrvZ <- SPrvL + coord_cartesian(xlim=c(0,2.25), ylim=c(0,25))
 
 SPrd <- ggplot(Pond_Data, aes(x=Rain, y=Depth)) + geom_point(col="darkblue", size=1.5) + geom_smooth(method="lm", col="aquamarine4")
-SPrdL <- SPrd + labs(title="Correlation Between Precipitation and Depth", subtitle="Everyday Data from Vernal Pond", y="Depth (in.)", x="Rainfall (in.)", caption="NA")
+SPrdL <-SPrd + labs(title="Correlation Between Precipitation and Depth", subtitle="Everyday Data from Vernal Pond", y="Depth (in.)", x="Rainfall (in.)", caption="NA")
 SPrdZ <- SPrdL + coord_cartesian(xlim=c(0,2.25), ylim=c(0,20))
 
 SPtd <- ggplot(Pond_Data, aes(x=TemperatureMax, y=Depth)) + geom_point(col="darkgreen", size=1.5) + geom_smooth(method="lm", col="aquamarine4")
@@ -47,6 +56,6 @@ SPtrZ <- SPtrL + coord_cartesian(xlim=c(25,77.5), ylim=c(0,2.35))
 
 ## ppi <- 300
 
-## png("/abyss/Common/Brian/School Work/Science Fair Project --- Vernal Pond: 2019_7th Grade/Data, CSV, Pickle Graph/Science-Fair_2019/Graphs/SPtrZ.png", width=10*ppi, height=6*ppi, res=ppi)
-## print(SPtrZ)
+## png("/abyss/Common/Brian/School Work/Science Fair Project --- Vernal Pond: 2019_7th Grade/Data, CSV, Pickle Graph/Science-Fair_2019/Graphs/SPvDZ.png", width=10*ppi, height=6*ppi, res=ppi)
+## print(SPvDZ)
 ## dev.off()
