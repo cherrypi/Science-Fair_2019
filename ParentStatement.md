@@ -18,6 +18,9 @@ the issue. Brian's username is `cherrypi`, I am `VCF`.
 
 _-Charles Tilford_
 
+_I also generated the [QR code](ParentQR.png) that leads to this page, using the [qrencode][qre] program_
+
 [issues]: https://github.com/cherrypi/Science-Fair_2019/issues?q=sort%3Acreated-asc
 [dateex]: https://github.com/cherrypi/Science-Fair_2019/issues/9
 [comex]: https://github.com/cherrypi/Science-Fair_2019/commit/706e7a4029e701493a45a1962eb9a4a94a60e87e
+[qre]: https://linux.die.net/man/1/qrencode
