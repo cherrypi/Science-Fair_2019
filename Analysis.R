@@ -52,10 +52,26 @@ SPtr <- ggplot(Pond_Data, aes(x=TemperatureMax, y=Rain)) + geom_point(col="darkg
 SPtrL <- SPtr + labs(title="Correlation Between Temperature and Precipitation", subtitle="Everyday Data from Vernal Pond", y="Rainfall (in.)", x="Temperature Maxium (*F)", caption="NA")
 SPtrZ <- SPtrL + coord_cartesian(xlim=c(25,77.5), ylim=c(0,2.35))
 
+## Code used for Y over Date graphs
+
+SPDt <- ggplot(Pond_Data, aes(x=Date, y=TemperatureMax)) + geom_point(col="darkolivegreen3", size=1.5)
+SPDtL <- SPDt + labs(title="Temperature Data Throughout Experiment", subtitle="Everyday Data from Vernal Pond", y="Temperature Maximum (*F)", x="Date", caption="NA")
+SPDtZ <- SPDtL + coord_cartesian(, ylim=c(22,77.5))
+
+## Code used to make lollipop graph, from http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html#Lollipop%20Chart
+
+LPPDr <- ggplot(Pond_Data, aes(x=Date, y=Rain)) + geom_point(col="dodgerblue2", size=1.5)
+LPPDrC <- LPPDr + geom_segment(aes(x=Date, xend=Date, y=0, yend=Rain))
+LPPDrT <- LPPDrC + labs(title="Precipitation Data Throughout Experiment", subtitle="Everyday Data from Vernal Pond", caption="NA")
+
+## Code used to make line graph, from https://www.r-graph-gallery.com/279-plotting-time-series-with-ggplot2/
+
+LIPDt <- ggplot(Pond_Data, aes(x=Date, y=TemperatureMax)) + geom_line() + ylab("Temperature Maximum (*F)")
+
 ## Code used to make PNG versions of graph, from: http://www.cookbook-r.com/Graphs/Output_to_a_file/
 
-## ppi <- 300
+ppi <- 300
 
-## png("/abyss/Common/Brian/School Work/Science Fair Project --- Vernal Pond: 2019_7th Grade/Data, CSV, Pickle Graph/Science-Fair_2019/Graphs/SPvDZ.png", width=10*ppi, height=6*ppi, res=ppi)
-## print(SPvDZ)
-## dev.off()
+png("/abyss/Common/Brian/School Work/Science Fair Project --- Vernal Pond: 2019_7th Grade/Data, CSV, Pickle Graph/Science-Fair_2019/Graphs/SPDtZ.png", width=10*ppi, height=6*ppi, res=ppi)
+print(SPDtZ)
+dev.off()
