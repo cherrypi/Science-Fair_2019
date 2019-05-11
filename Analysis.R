@@ -30,7 +30,7 @@ SPtaZ <- SPtaL + coord_cartesian(xlim=c(25,77.5), ylim=c(130,210))
 
 SPtv <- ggplot(Pond_Data, aes(x=TemperatureMax, y=Volume)) + geom_point(col="darkgreen", size=1.5) + geom_smooth(method="lm", col="red")
 SPtvL <- SPtv + labs(title="Correlation Between Temperature and Volume", subtitle="Everyday Data from Vernal Pond", y="Volume of Pond (m^3)", x="Temperature Maximum", caption="NA")
-SPtvZ <- SPtvL + coord_cartesian(xlim=c(25,77.5), ylim=c(0,20))
+SPtvZ <- SPtvL + coord_cartesian(xlim=c(25,77.5), ylim=c(0,20)) + theme(plot.title = element_text(size=22), plot.subtitle = element_text(size=22), plot.tag = element_text(size=22))
 
 SPra <- ggplot(Pond_Data, aes(x=Rain, y=Area)) + geom_point(col="darkblue", size=1.5) + geom_smooth(method="lm", col="darkgoldenrod3")
 SPraL <- SPra + labs(title="Correlation Between Precipitation and Area", subtitle="Everyday Data from Vernal Pond", y="Surface Area of Pond (m^2)", x="Rainfall (in.)", caption="NA")
@@ -38,7 +38,7 @@ SPraZ <- SPraL + coord_cartesian(xlim=c(0,2.25), ylim=c(137.5,220))
 
 SPrv <- ggplot(Pond_Data, aes(x=Rain, y=Volume)) + geom_point(col="darkblue", size=1.5) + geom_smooth(method="lm", col="darkgoldenrod3")
 SPrvL <- SPrv + labs(title="Correlation Between Precipitation and Volume", subtitle="Everyday Data from Vernal Pond", y="Volume of Pond (m^3)", x="Rainfall (in.)", caption="NA")
-SPrvZ <- SPrvL + coord_cartesian(xlim=c(0,2.25), ylim=c(0,25))
+SPrvZ <- SPrvL + coord_cartesian(xlim=c(0,2.25), ylim=c(0,25)) + theme(plot.title = element_text(size=22), plot.subtitle = element_text(size=22), plot.tag = element_text(size=22))
 
 SPrd <- ggplot(Pond_Data, aes(x=Rain, y=Depth)) + geom_point(col="darkblue", size=1.5) + geom_smooth(method="lm", col="aquamarine4")
 SPrdL <-SPrd + labs(title="Correlation Between Precipitation and Depth", subtitle="Everyday Data from Vernal Pond", y="Depth (in.)", x="Rainfall (in.)", caption="NA")
@@ -52,16 +52,16 @@ SPtr <- ggplot(Pond_Data, aes(x=TemperatureMax, y=Rain)) + geom_point(col="darkg
 SPtrL <- SPtr + labs(title="Correlation Between Temperature and Precipitation", subtitle="Everyday Data from Vernal Pond", y="Rainfall (in.)", x="Temperature Maxium (*F)", caption="NA")
 SPtrZ <- SPtrL + coord_cartesian(xlim=c(25,77.5), ylim=c(0,2.35))
 
-## Code used for Y over Date graphs
+## Code used for Y over Date graphs, https://stackoverflow.com/questions/28243514/ggplot2-change-title-size for some Code
 
-SPDt <- ggplot(Pond_Data, aes(x=Date, y=TemperatureMax)) + geom_point(col="darkolivegreen3", size=1.5)
-SPDtL <- SPDt + labs(title="Temperature Data Throughout Experiment", subtitle="Everyday Data from Vernal Pond", y="Temperature Maximum (*F)", x="Date", caption="NA")
-SPDtZ <- SPDtL + coord_cartesian(, ylim=c(22,77.5))
+SPDv <- ggplot(Pond_Data, aes(x=Date, y=Volume)) + geom_point(col="firebrick4", size=1.5)
+SPDvL <- SPDv + labs(title="Volume Data Throughout Experiment", subtitle="Everyday Data from Vernal Pond", y="Volume of Pond (m^3)", x="Date", caption="NA")
+SPDvZ <- SPDvL + coord_cartesian(, ylim=c(0,25)) + theme(plot.title = element_text(size=22), plot.subtitle = element_text(size=22), plot.tag = element_text(size=22))
 
 ## Code used to make lollipop graph, from http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html#Lollipop%20Chart
 
 LPPDr <- ggplot(Pond_Data, aes(x=Date, y=Rain)) + geom_point(col="dodgerblue2", size=1.5)
-LPPDrC <- LPPDr + geom_segment(aes(x=Date, xend=Date, y=0, yend=Rain))
+LPPDrC <- LPPDr + geom_segment(aes(x=Date, xend=Date, y=0, yend=Rain)) + theme(plot.title = element_text(size=22), plot.subtitle = element_text(size=22), plot.tag = element_text(size=22))
 LPPDrT <- LPPDrC + labs(title="Precipitation Data Throughout Experiment", subtitle="Everyday Data from Vernal Pond", caption="NA")
 
 ## Code used to make line graph, from https://www.r-graph-gallery.com/279-plotting-time-series-with-ggplot2/
@@ -72,6 +72,6 @@ LIPDt <- ggplot(Pond_Data, aes(x=Date, y=TemperatureMax)) + geom_line() + ylab("
 
 ppi <- 300
 
-png("/abyss/Common/Brian/School Work/Science Fair Project --- Vernal Pond: 2019_7th Grade/Data, CSV, Pickle Graph/Science-Fair_2019/Graphs/SPDtZ.png", width=10*ppi, height=6*ppi, res=ppi)
-print(SPDtZ)
+png("/abyss/Common/Brian/School Work/Science Fair Project --- Vernal Pond: 2019_7th Grade/Data, CSV, Pickle Graph/Science-Fair_2019/Graphs/SPrvZ.png", width=10*ppi, height=6*ppi, res=ppi)
+print(SPrvZ)
 dev.off()
